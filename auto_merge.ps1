@@ -1,9 +1,9 @@
 # Lista de todos os branches que precisam ser sincronizados
-$branches = @("main", "SigWar", "Kiwey", "Fa")
+$branches = @("main", "SigWar", "Kiwey", "Fa", "DEV05")
 
 # Configura o Git com nome e email (necessário para commits automáticos)
-git config --global user.name "kiweyX"
-git config --global user.email "a.vieiira01@gmail.com"
+git config --global user.name "Fabricio3028"
+git config --global user.email "fabriciodaiane05@gmail.com"
 
 # Função para fazer merge das alterações do branch de origem para os outros
 function MergeToAllBranches($sourceBranch) {
@@ -35,4 +35,4 @@ foreach ($branch in $branches) {
 }
 
 # Volta para o branch principal (Deploy) ao final do script
-git checkout Kiwey
+git checkout DEV05
