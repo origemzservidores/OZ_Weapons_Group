@@ -34,9 +34,9 @@ class cfgWeapons
 		repairableWithKits[] = {1};
 		repairCosts[] = {10};
 		PPDOFProperties[] = {1,0.5,50,160,4,10};
-		HealthDmgMultiply = 1.5;
+		// HealthDmgMultiply = 1.5;
 		// BloodDmgMultiply = 1.5;
-		ShockDmgMultiply = 4.0;
+		// ShockDmgMultiply = 4.0;
 		initSpeedMultiplier = 1.5;
 		WeaponLength=1.21;
 		chamberedRound = "";
