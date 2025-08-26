@@ -6,7 +6,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {
-			"DZ_Data",
+			"DZ_Data", 
 			"DZ_Scripts",  
 			"DZ_Gear_Medical", 
 			"DZ_Structures_Furniture", 
